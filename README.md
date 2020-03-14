@@ -3,4 +3,4 @@
 Da Colab, sotto File -> Upload Notebook.
 
 Usare il link del progetto github e scaricare il notebook:
-
+https://github.com/nzagni91/hello-world.git
