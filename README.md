@@ -1,6 +1,3 @@
 # Come usare il codice
 
-Da Colab, sotto File -> Upload Notebook.
-
-Usare il link del progetto github e scaricare il notebook:
-https://github.com/nzagni91/hello-world.git
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
