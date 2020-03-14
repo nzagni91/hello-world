@@ -1,0 +1,92 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled6.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMsrOvJVRbPxHAHnE5kkijq",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nzagni91/hello-world/blob/master/Generatore_Numeri_Casuali\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "N9g9fJVQtFQO",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "# Import necessary libraries (do not worry)\n",
+        "from numpy.random import seed\n",
+        "from numpy.random import randint\n"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "T5MgAKJZt3xS",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "# Initialize the seed for random number generators (do not worry again)\n",
+        "seed(1)"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "0XSq4mDAuAUk",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "bdf47b7b-e794-4e4c-fbd4-9c8c3587298c"
+      },
+      "source": [
+        "# Roll the dices! The second number is the number of faces\n",
+        "value6=randint(1,6)\n",
+        "print(\"Six-Faces Dice Value = \", value6)\n",
+        "\n",
+        "value10=randint(1,10)\n",
+        "print(\"Ten-Faces Dice Value = \", value10)\n",
+        "\n",
+        "value20=randint(1,20)\n",
+        "print(\"Twenty-Faces Dice Value = \", value20)"
+      ],
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Six-Faces Dice Value =  1\n",
+            "Ten-Faces Dice Value =  2\n",
+            "Twenty-Faces Dice Value =  9\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
